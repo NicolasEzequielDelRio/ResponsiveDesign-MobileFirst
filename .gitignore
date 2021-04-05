@@ -1,0 +1,22 @@
+# dependency caches
+/node_modules
+# compiled code
+*.o
+*.pyc
+*.class
+# build output directories
+/bin
+/out
+/target
+/assets/icon
+/assets/img
+# files generated at runtime
+*.log
+*.lock
+*.tmp
+# hidden system files
+*.DS_Store
+*.db
+# personal IDE config files
+*config.js
+*workspace.xml
