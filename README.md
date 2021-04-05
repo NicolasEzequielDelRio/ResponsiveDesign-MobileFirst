@@ -1,7 +1,8 @@
 # ResponsiveDesign-MobileFirst
 
-Curso de Responsive Design: Maquetación Mobile First - Platzi
-Replica de un sitio web totalmente responsivo partiendo de su wireframe.
+Curso de Responsive Design: Maquetación Mobile First - Platzi.
+
+Replica de un sitio web ([Batabit](https://batatabit.vercel.app/)) totalmente responsivo partiendo de su wireframe.
 
 =============
 
