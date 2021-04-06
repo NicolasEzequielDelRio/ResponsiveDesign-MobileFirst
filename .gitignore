@@ -10,6 +10,8 @@
 /target
 /assets/icon
 /assets/img
+/assets/font
+/assets/config
 # files generated at runtime
 *.log
 *.lock
@@ -18,5 +20,4 @@
 *.DS_Store
 *.db
 # personal IDE config files
-*config.js
 *workspace.xml
