@@ -1,3 +1,47 @@
-/* Google Font  */
-/* font-family: 'DM Sans', sans-serif;
-font-family: 'Inter', sans-serif; */
+/*
+1. Posicionamiento
+2. Modelo de caja (Box modes)
+3. Tipografia
+4. Visuales
+5. Misceláneos (otros)
+*/
+
+:root {
+    /* Colors */
+    --primary-orange: #F7931A;
+    --secondary-orange: #FF9536;
+    --soft-orange: #FFE9D5;
+    --primary-dark: #201E1C;
+    --secondary-dark: #282623;
+    --primary-grey: #757575;
+    --secondary-grey: #808080;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --just-white: #FFFFFF;
+    --off-white: #FAF8F7;
+    /* Font Weight */
+    --title-weight: 700;
+    --sub-title-weight: 700;
+    --text-weight: 500;
+    /* Font Size */
+    --title-size: 2.4rem;
+    --sub-title-size: 1.8rem;
+    --text-size: 1.4rem;
+    /* Font family */
+    /* Import of Google Font  */
+    --primary-font-family: 'DM Sans', sans-serif;
+    --secondary-font-family: 'Inter', sans-serif;
+    /* Font Style */
+    --primary-font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--primary-font-family);
+}
