@@ -194,6 +194,7 @@ header {
 }
 
 .main-table-container__table {
+    font-family: var(--secondary-font-family);
     margin: 0 auto;
 }
 
@@ -247,6 +248,7 @@ header {
     background-image: url('../icon/price_down_arrow.svg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100% 100%;
 }
 
 .icon-price-up {
@@ -255,6 +257,7 @@ header {
     background-image: url('../icon/price_up_arrow.svg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100% 100%;
 }
 
 .main-table-container__update-date {
@@ -287,16 +290,30 @@ header {
     justify-content: left;
     flex-direction: column;
     background-color: var(--primary-dark);
+    padding: 64px 0;
+}
+
+.main-features-container__logo-bottom {
+    position: relative;
+    width: 37.5px;
+    height: 24px;
+    top: -74px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-image: url('../img/logo.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .main-features-container__title {
     width: 90%;
-    margin: 64px auto 24px;
+    margin: 0 auto 24px;
     text-align: center;
     color: var(--just-white);
     font-size: var(--title-size);
     font-weight: var(--title-weight);
-    line-height: 2.6rem;   
+    line-height: 2.6rem;
 }
 
 .main-features-container__description {
@@ -306,11 +323,12 @@ header {
     color: var(--secondary-grey);
     font-size: var(--text-size);
     font-weight: var(--text-weight);
-    line-height: 1.8rem;   
+    line-height: 1.8rem;
 }
 
 .main-features-container article {
-    width: 90%;
+    width: 85%;
+    min-width: 288px;
     max-width: 360px;
     margin: 10px auto;
     padding: 16px;
@@ -375,3 +393,24 @@ img {
     height: auto;
 }
 
+.main-bitcoin-baby {
+    width: 100%;
+    height: calc(100vw * 387 / 320);
+    max-width: 516px;
+    max-height: calc(516px * 387 / 320);
+    background-color: var(--primary-orange);
+    background-image: url('../img/girl_bitcoin.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+.main-bitcoin-baby h2 {
+    position: relative;;
+    top: calc(100% * 64 / 387);
+    text-align: center;
+    color: var(--just-white);
+    font-size: var(--title-size);
+    font-weight: var(--title-weight);
+}
