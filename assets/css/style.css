@@ -285,6 +285,7 @@ header {
 }
 
 .main-features-container {
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: left;
@@ -293,11 +294,11 @@ header {
     padding: 64px 0;
 }
 
-.main-features-container__logo-bottom {
-    position: relative;
+.main-features-container__logo-top {
+    position: absolute;
     width: 37.5px;
     height: 24px;
-    top: -74px;
+    top: -12px;
     left: 0;
     right: 0;
     margin: auto;
@@ -358,7 +359,7 @@ header {
     background-image: url('../icon/clock.svg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .icon-eye {
@@ -367,7 +368,7 @@ header {
     background-image: url('../icon/eye.svg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .icon-dollar-sign {
@@ -376,7 +377,7 @@ header {
     background-image: url('../icon/dollar_sign.svg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .icon-check {
@@ -385,7 +386,7 @@ header {
     background-image: url('../icon/check_circle.svg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 img {
@@ -396,13 +397,13 @@ img {
 .main-bitcoin-baby {
     width: 100%;
     height: calc(100vw * 387 / 320);
-    max-width: 516px;
-    max-height: calc(516px * 387 / 320);
+    /* max-width: 516px; */
+    /* max-height: calc(516px * 387 / 320); */
     background-color: var(--primary-orange);
-    background-image: url('../img/girl_bitcoin.jpg');
+    background-image: url('../img/girl_bitcoin_3x.jpg');
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100%;
+    background-size: cover;
     margin: 0 auto;
 }
 
@@ -413,4 +414,152 @@ img {
     color: var(--just-white);
     font-size: var(--title-size);
     font-weight: var(--title-weight);
+}
+
+.main-plans-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--off-white);
+    width: 100%;
+    padding-bottom: 64px;
+}
+
+.main-plans-container__title {
+    width: 90%;
+    max-width: 400px;
+    margin: 64px auto 0;
+    color: black;
+    font-size: var(--title-size);
+    font-weight: var(--title-weight);
+    text-align: center;
+}
+
+.main-plans-container__description {
+    width: 90%;
+    max-width: 400px;
+    margin: 24px auto 42px;
+    color: var(--primary-grey);
+    font-size: var(--text-size);
+    font-weight: var(--text-weight);
+    text-align: center;
+}
+
+.slideshow-plans-container .plan {
+    position: relative;
+    width: 60%;
+    min-width: 190px;
+    max-width: 250px;
+    min-height: 260px;
+    margin: 0 auto 20px;
+    background-color: var(--just-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 8px;
+}
+
+.plan__recommended {
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0;
+    top: -15px;
+    margin: 0 auto;
+    width: 10.1rem;
+    height: 3.1rem;
+    background-color: var(--primary-orange);
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--secondary-font-family);
+    font-size: calc(var(--text-size) - 0.2rem);
+    font-weight: var(--sub-title-weight);
+    color: var(--just-white);
+}
+
+.plan__title {
+    text-align: center;
+    padding: 31px 0 8px;
+    font-size: var(--text-size);
+}
+
+.plan__price {
+    font-size: calc(var(--text-size) * 4);
+    font-family: var(--secondary-font-family);
+    font-weight: var(--title-weight);
+    text-align: center;
+}
+
+.plan__price .dollar-sign {
+    position: relative;
+    top: 15px;
+    font-size: calc(var(--text-size) - 2px);
+    font-style: normal;
+    vertical-align: top;
+}
+
+.plan__description {
+    width: 80%;
+    max-width: 400px;
+    margin: 16px auto;
+    color: var(--primary-grey);
+    font-size: calc(var(--text-size) - 0.2rem);
+    font-weight: var(--text-weight);
+    text-align: center;
+}
+
+.plan__boton__action {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 22px;
+    margin: 0 auto;
+    width: 151px;
+    height: 48px;
+    border-color: var(--primary-orange);
+    border-radius: 4px;
+    font-size: var(--text-size);
+    font-weight: var(--sub-title-weight);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
+.icon-arrow-next {
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../icon/arrow-right.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.icon-left-plans {
+    position: absolute;
+    left: -15px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../icon/displacement_left_arrow_plans.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.icon-right-plans {
+    position: absolute;
+    right: -15px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../icon/displacement_right_arrow_plans.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
 }

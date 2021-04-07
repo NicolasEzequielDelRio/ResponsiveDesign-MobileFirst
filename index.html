@@ -16,7 +16,7 @@
     <!-- Importacion de fuentes de Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Responsive Design</title>
@@ -42,59 +42,61 @@
                 <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.
                 </p>
             </div>
-            <div class="main-table">
-                <section class="main-table-container coins">
-                    <h3 class="main-table-container__title">Monedas</h3>
-                    <div class="main-table-container__table">
-                        <table>
-                            <tr>
-                                <td class="name top-left">Bitcoin</td>
-                                <td class="value top-right"><span>$1.96</span><i class="icon-price-down"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="name">Ethereum</td>
-                                <td class="value"><span>$0.07</span><i class="icon-price-up"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="name">Ripple</td>
-                                <td class="value"><span>$2.15</span><i class="icon-price-down"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="name bottom-left">Stellar</td>
-                                <td class="value bottom-right"><span>$4.96</span><i class="icon-price-down"></i></td>
-                            </tr>
-                        </table>
-                    </div>
-                    <p class="main-table-container__update-date"><b>Actualizado: </b>19 julio 23:45</p>
-                </section>
-                <section class="main-table-container comission">
-                    <h3 class="main-table-container__title">Comisiones</h3>
-                    <div class="main-table-container__table">
-                        <table>
-                            <tr>
-                                <td class="name top-left">Bitrade</td>
-                                <td class="value top-right"><span>$12.96</span></td>
-                            </tr>
-                            <tr>
-                                <td class="name">Bitpreco</td>
-                                <td class="value"><span>$13.07</span></td>
-                            </tr>
-                            <tr>
-                                <td class="name">Novodax</td>
-                                <td class="value"><span>$13.15</span></td>
-                            </tr>
-                            <tr>
-                                <td class="name bottom-left">Coinext</td>
-                                <td class="value bottom-right"><span>$14.96</span></td>
-                            </tr>
-                        </table>
-                    </div>
-                    <p class="main-table-container__update-date"><b>Actualizado: </b>19 julio 23:48</p>
-                </section>
+            <div class="slideshow-table">
+                <div class="main-table">
+                    <section class="main-table-container coins">
+                        <h3 class="main-table-container__title">Monedas</h3>
+                        <div class="main-table-container__table">
+                            <table>
+                                <tr>
+                                    <td class="name top-left">Bitcoin</td>
+                                    <td class="value top-right"><span>$1.96</span><i class="icon-price-down"></i></td>
+                                </tr>
+                                <tr>
+                                    <td class="name">Ethereum</td>
+                                    <td class="value"><span>$0.07</span><i class="icon-price-up"></i></td>
+                                </tr>
+                                <tr>
+                                    <td class="name">Ripple</td>
+                                    <td class="value"><span>$2.15</span><i class="icon-price-down"></i></td>
+                                </tr>
+                                <tr>
+                                    <td class="name bottom-left">Stellar</td>
+                                    <td class="value bottom-right"><span>$4.96</span><i class="icon-price-down"></i></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p class="main-table-container__update-date"><b>Actualizado: </b>19 julio 23:45</p>
+                    </section>
+                    <section class="main-table-container comission">
+                        <h3 class="main-table-container__title">Comisiones</h3>
+                        <div class="main-table-container__table">
+                            <table>
+                                <tr>
+                                    <td class="name top-left">Bitrade</td>
+                                    <td class="value top-right"><span>$12.96</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="name">Bitpreco</td>
+                                    <td class="value"><span>$13.07</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="name">Novodax</td>
+                                    <td class="value"><span>$13.15</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="name bottom-left">Coinext</td>
+                                    <td class="value bottom-right"><span>$14.96</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p class="main-table-container__update-date"><b>Actualizado: </b>19 julio 23:48</p>
+                    </section>
+                </div>
             </div>
         </section>
         <section class="main-features-container">
-            <div class="main-features-container__logo-bottom"></div>
+            <div class="main-features-container__logo-top"></div>
             <h2 class="main-features-container__title">Creamos un producto sin comparación.</h2>
             <p class="main-features-container__description">Confiable y diseñado para su uso diario.</p>
             <article>
@@ -123,7 +125,36 @@
         <section class="main-bitcoin-baby">
             <h2>Conócelo hoy.</h2>
         </section>
-        <section></section>
+        <section class="main-plans-container">
+            <h2 class="main-plans-container__title">Escoge el plan que mejor se ajusta a ti.</h2>
+            <p class="main-plans-container__description">Cualquier plan te da acceso completo a nuestra plataforma.</p>
+            <div class="slideshow-plans-container">
+                <article class="plan anual">
+                    <p class="plan__recommended">Recomendado</p>
+                    <h3 class="plan__title">Pago Anual</h3>
+                    <p class="plan__price"><span class="dollar-sign">$</span>99</p>
+                    <p class="plan__description">*Ahorras $129 comparado al plan mensual</p>
+                    <button class="plan__boton__action">Escoge este <i class="icon-arrow-next"></i></button>
+                    <i class="icon-left-plans"></i>
+                    <i class="icon-right-plans"></i>
+                </article>
+                <article class="plan month">
+                    <h3 class="plan__title">Pago Mensual</h3>
+                    <p class="plan__price"><span class="dollar-sign">$</span>10</p>
+                    <button class="plan__boton__action">Escoge este <i class="icon-arrow-next"></i></button>
+                    <i class="icon-left-plans"></i>
+                    <i class="icon-right-plans"></i>
+                </article>
+                <article class="plan day">
+                    <h3 class="plan__title">Pago Anual</h3>
+                    <p class="plan__price"><span class="dollar-sign">$</span>1</p>
+                    <button class="plan__boton__action">Escoge este <i class="icon-arrow-next"></i></button>
+                    <i class="icon-left-plans"></i>
+                    <i class="icon-right-plans"></i>
+                </article>
+
+            </div>
+        </section>
     </main>
     <footer></footer>
 </body>
