@@ -167,22 +167,28 @@ header {
     line-height: 1.8rem;
 }
 
-.main-table {
+.slideshow-table {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
+    width: 70%;
+    max-width: 500px;
+    height: 330px;
     margin: 30px auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    justify-content: left;
 }
 
 .main-table-container {
-    width: 65%;
-    margin: auto;
+    scroll-snap-align: center;
     display: flex;
-    justify-content: center;
+    position: relative;
     flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
     margin: 0 auto;
     max-width: 300px;
+    justify-content: left;
     /* border: 1px solid black; */
 }
 
@@ -267,7 +273,6 @@ header {
     border-radius: 0.8rem;
 }
 
-
 .coins .main-table-container__title {
     color: var(--secondary-orange);
 }
@@ -331,6 +336,7 @@ header {
     width: 85%;
     min-width: 288px;
     max-width: 360px;
+    height: auto;
     margin: 10px auto;
     padding: 16px;
     background-color: var(--secondary-dark);
@@ -447,15 +453,19 @@ img {
 
 .slideshow-plans-container {
     display: flex;
-    height: 330px;
+    width: 60%;
+    max-width: 700px;
+    height: 360px;
+    margin: 0 auto;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    justify-content: left;
 }
 
 .slideshow-plans-container .plan {
-    position: relative;
     scroll-snap-align: center;
+    position: relative;
     width: 60%;
     top: 20px;
     min-width: 190px;
