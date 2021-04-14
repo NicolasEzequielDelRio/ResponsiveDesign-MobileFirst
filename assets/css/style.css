@@ -9,14 +9,14 @@
 :root {
     /* Colors */
     --primary-orange: #F7931A;
-    --secondary-orange: #FF9536;
+    --secondary-orange: #B85600;
     --soft-orange: #FFE9D5;
     --primary-dark: #201E1C;
     --secondary-dark: #282623;
-    --primary-grey: #757575;
-    --secondary-grey: #808080;
-    --soft-grey: #B5B0AC;
-    --secondary-blue: #1A9AF7;
+    --primary-grey: #6E6E6E;
+    --secondary-grey: #949494;
+    --soft-grey: #747272;
+    --secondary-blue: #2976AE;
     --soft-blue: #E7F5FF;
     --just-white: #FFFFFF;
     --off-white: #FAF8F7;
@@ -495,7 +495,7 @@ img {
     font-family: var(--secondary-font-family);
     font-size: calc(var(--text-size) - 0.2rem);
     font-weight: var(--sub-title-weight);
-    color: var(--just-white);
+    color: var(--primary-dark);
 }
 
 .plan__title {
@@ -592,7 +592,7 @@ footer {
     height: 150px;
     background-color: var(--primary-orange);
     justify-content: center;
-    color: var(--just-white);
+    color: var(--primary-dark);
 }
 
 .footer__social-media {
@@ -610,7 +610,7 @@ footer {
 
 .footer__social-media__list a {
     text-decoration: none;
-    color: var(--just-white);
+    color: var(--primary-dark);
 }
 
 .footer__logo {
