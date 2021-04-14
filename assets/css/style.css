@@ -61,8 +61,8 @@ header {
 }
 
 .header__logo {
-    width: 150px;
-    height: 24px;
+    /* width: 150px;
+    height: 24px; */
     margin-top: 60px;
     align-self: center;
 }
@@ -408,13 +408,13 @@ img {
     background-color: var(--primary-orange);
     background-image: url('../img/girl_bitcoin_3x.jpg');
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     margin: 0 auto;
 }
 
 .main-bitcoin-baby h2 {
-    position: relative;;
+    position: relative;
     top: calc(100% * 64 / 387);
     text-align: center;
     color: var(--just-white);
@@ -625,8 +625,8 @@ footer {
 
 .footer__logo .img-logo {
     position: absolute;
-    width: 37.5px;
-    height: 24px;
+    /* width: 37.5px;
+    height: 24px; */
     top: 30px;
     left: 0;
     right: 0;

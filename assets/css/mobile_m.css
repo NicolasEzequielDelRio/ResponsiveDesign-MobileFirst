@@ -39,3 +39,8 @@ html {
     font-family: var(--primary-font-family);
     font-style: var(--primary-font-style);
 }
+
+
+.main-bitcoin-baby {
+    height: calc(100vw * 0.7);
+}

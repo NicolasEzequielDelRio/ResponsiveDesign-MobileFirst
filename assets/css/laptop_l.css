@@ -46,7 +46,8 @@ html {
 
 
 .main-bitcoin-baby {
-    max-height: 1200px;
+    max-height: 700px;
+    background-position: center;
 }
 
 .main-features-container article {
